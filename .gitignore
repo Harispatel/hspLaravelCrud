@@ -1,0 +1,60 @@
+# Laravel & PHP
+/vendor
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/.vagrant
+Homestead.yaml
+Homestead.json
+.env
+.env.backup
+.phpunit.result.cache
+/.phpunit.result.cache
+
+# Laravel specific
+/storage/app/public
+/storage/framework/cache/data
+/storage/logs
+
+# Laravel Mix
+/public/css/app.css
+/public/js/app.js
+
+# IDE & Editor specific
+/.idea
+/.vscode
+/.phpstorm.meta.php
+.DS_Store
+Thumbs.db
+
+# System files
+*.DS_Store
+*.log
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Composer
+/vendor
+
+# NPM
+/node_modules
+
+# Yarn
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# Vagrant
+.vagrant/
+
+# Temporary files
+*.tmp
+*.temp
+
+# PHPUnit
+.phpunit.result.cache
