@@ -1,11 +1,7 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Show Post</title>
-</head>
-<body>
-    <h2>{{ $post->title }}</h2>
-    <p>{{ $post->content }}</p>
-    <a href="{{ route('posts.index') }}">Back</a>
-</body>
-</html>
+@extends('layouts.app')
+
+@section('content')
+    <h2 class="h2">{{ $post->title }}</h2>
+    <p class="">{{ $post->content }}</p>
+    <a class="btn btn-default btn-light" href="{{ route('posts.index') }}">Back</a>
+@endsection
